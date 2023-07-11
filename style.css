@@ -1,0 +1,138 @@
+/* common section starts */
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
+
+main section {
+    margin-top: 130px;
+    /* max-width: 1440px; */
+    
+}
+.description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.button {
+    padding: 20px 45px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+.title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/* welcome section starts */
+.welcomeMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(229, 84, 115, 0.10);    
+}
+.welcomeMain .welcomeTitle {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+/* featured section starts */
+.featuredFlowersTop {
+    text-align: center;
+}
+.flowersContainer {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    text-align: center;
+}
+.blockBG1 {
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding: 100px 75px 0px 75px;
+}
+.blockBG2 {
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding: 120px 50px 50px 50px;
+}
+.blockBG3 {
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding: 70px 75px 0px 75px;
+}
+.blockTitle {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+
+/* offer section starts */
+.offerMain {
+    display: flex;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    justify-content: center;
+    align-items: center;
+}
+.offerLeft {
+    text-align: center;
+
+}
+
+
+/* social section starts */
+.socialTop {
+    text-align: center;
+}
+.socialMain {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.offerColor {
+    color: #E55473;
+}
+
+/* deals section starts */
+.dealsMain {
+    text-align: center;
+    background-image: url(./asset/rectangle\ 9.png);
+    min-height: 449px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* footer section starts */
+.endMain {
+    text-align: center;
+    margin-top: 130px;
+    background-color: #111010;
+    color: #FFFFFF;
+    padding: 100px 200px;
+}
+.endTop {
+    font-size: 48px;
+    font-weight: 800;
+}
+.endDescription {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.90);
+}
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
