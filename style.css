@@ -101,6 +101,12 @@ main section {
     justify-content: center;
     align-items: center;
 }
+.offerMain .title{
+    padding-bottom: 20px;
+}
+.offerMain .description{
+    padding-bottom: 20px;
+}
 .offerLeft {
     text-align: center;
 }
@@ -109,6 +115,12 @@ main section {
 /* social section starts */
 .socialTop {
     text-align: center;
+}
+.socialTop .title{
+    padding-bottom: 20px;
+}
+.socialTop .description{
+    padding-bottom: 20px;
 }
 .socialMain {
     display: flex;
@@ -125,12 +137,15 @@ main section {
     margin: 0 auto;
     padding: 20px;
 }
+.reviewMain .reviewTop{
+    padding: 20px;
+    font-size: 30px;
+}
 .reviewTop{
     color: #272727;
     font-size: 40px;
     font-weight: 800;
     text-align: center;
-
 }
 .review {
     background-color: #f5f5f5;
