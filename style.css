@@ -3,7 +3,6 @@
     font-family: 'Lato', sans-serif;
     margin: 0px;
 }
-
 main section {
     margin-top: 130px;
 }
@@ -35,7 +34,7 @@ main section {
     align-items: center;
     justify-content: space-between;
     background-color: rgba(229, 84, 115, 0.10);
-    padding: 30px 30px 0px 30px;
+    padding: 30px 30px 0px 30px;    
 }
 .welcomeMain .welcomeTitle {
     color: #272727;
@@ -56,9 +55,11 @@ main section {
     padding-right: 20px;
 }
 
+
 /* featured section starts */
 .featuredFlowersTop {
     text-align: center;
+    padding-top: 30px;
 }
 .featuredFlowersTop .description{
     padding-bottom: 30px;
@@ -156,18 +157,22 @@ main section {
     background-image: url(./asset/rectangle\ 9.png);
     min-height: 449px;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;    
 }
 .dealsTop{
-    padding: 160px 0px 0px;
+    padding: 120px 0px 0px;
 }
-.dealsForm{
-    
+.dealsTop .title{
+    padding-bottom: 10px;
 }
-
-
-
-
+.dealsTop .description{
+    padding-bottom: 20px;
+}
+#email{
+    padding: 25px 250px;
+    border: none;
+    border-radius: 8px;
+}
 
 /* footer section starts */
 .endMain {
@@ -186,8 +191,10 @@ main section {
     font-weight: 400;
     line-height: 30px;
     color: rgba(255, 255, 255, 0.90);
+    padding-top: 20px;
 }
 .copyright {
+    padding-top: 20px;
     color: rgba(255, 255, 255, 0.40);
     font-family: Lato;
     font-size: 16px;
